@@ -4,9 +4,9 @@ int main()
 {
     int a;
 
-    for (a=1; a<20 ; a = a + 2)
+    for (a=20; a>0 ; a=a-2)
     {
-        printf("%d is an odd number \n",a);
+        printf("The even number is %d\n",a);
     }
 
     return 0 ;
