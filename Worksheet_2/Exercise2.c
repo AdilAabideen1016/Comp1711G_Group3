@@ -11,6 +11,19 @@ int main()
         scanf("%d", &numArray[a] );
     }
     
-    return 0;
+    num = numArray[0] ;
+    numArray[0] = numArray[4] ;
+    numArray[4] = num ;
+    num = numArray[1] ;
+    numArray[1] = numArray[3] ;
+    numArray[3] = num ;
+
+
+    for (a=0 ; a < 5 ; a++) 
+    {
+        printf("%d", numArray[a]);
+    }
+
+    return 0 ;
 
 }
